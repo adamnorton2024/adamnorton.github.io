@@ -1,0 +1,53 @@
+/* * {
+    border: 1px dotted white;
+} */
+
+body, html {
+    background-color: black;
+    color: white;
+    overflow: auto;
+    overflow-x: visible;
+    background-image: url(../images/background03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#img-logo {
+    width: 40em;
+    height: auto;
+}
+
+#img-headshot {
+    width: 8em;
+    height: auto;
+    border-radius: 10em;
+}
+
+.gradient {
+    /* background-color: black; */
+    background-image: 
+        linear-gradient(
+            to right,
+            black, rgba(0,0,0,0)
+        );
+}
+
+.area {
+    margin-top: 3em;
+    border: 2px solid white;
+    border-radius: 1em;
+    padding: 0.5em;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.card {
+    margin: 0.25em;
+}
